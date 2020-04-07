@@ -1,0 +1,39 @@
+{
+  "name": "preact-typescript-snowpack-example-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "htm": "^3.0.3",
+    "huncwot": "^0.58.0",
+    "preact": "^10.3.4",
+    "preact-router": "^3.2.1",
+    "wouter-preact": "^2.4.0"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "tslib",
+      "preact",
+      "preact/compat",
+      "preact-router",
+      "htm/preact",
+      "wouter-preact"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@wessberg/rollup-plugin-ts": "^1.2.23",
+    "chokidar": "^3.3.1",
+    "cross-env": "^7.0.2",
+    "node-pg-migrate": "^4.5.1",
+    "npm-check-updates": "^4.1.1",
+    "prettier": "^2.0.4",
+    "rollup": "^2.3.3",
+    "snowpack": "^1.6.0",
+    "typescript": "^3.8.3"
+  }
+}
